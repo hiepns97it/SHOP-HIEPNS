@@ -9,9 +9,8 @@ class Splashscreen extends React.Component {
     }
 
     componentDidMount() {
-        console.log('chay');
         setTimeout(() => {
-            this.props.navigation.navigate('Trang chủ');
+            this.props.navigation.navigate('Home');
         }, 3000);
     }
 
